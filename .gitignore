@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (often large / shouldn't be in git)
+data/*
+!data/processed/
+data/processed/*
+!data/processed/.gitkeep
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Environment variables / secrets
+.env
